@@ -25,9 +25,10 @@ header {
 }
 
 header img {
-    max-width: 120px;
+    max-width: 100px;
     margin-bottom: 10px;
 }
+
 
 h1,
 h2,
@@ -55,7 +56,7 @@ p {
 }
 
 .metodologia img {
-    width: 100px;
+    width: 80px;
     height: auto;
     display: block;
     margin: 0 auto 10px;
