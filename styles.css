@@ -119,6 +119,55 @@ p {
     line-height: 1.5;
 }
 
+.cpd-section {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    overflow-x: auto;
+}
+
+.cpd-section h2 {
+    color: #004B23;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004B23;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+@media screen and (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .equipo {
         flex-direction: column;
